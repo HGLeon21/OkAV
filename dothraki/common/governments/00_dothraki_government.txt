@@ -1,0 +1,122 @@
+### Brief: dothraki_government
+#
+# A Dothraki khalasar: a horse-borne nomadic horde from Essos. Mechanically a
+# variant of vanilla nomad_government — keeps the hardcoded nomad mechanic
+# (herd, county fertility, yurt domicile, raiding) but is gated to Dothraki
+# culture/heritage and tuned for an extremely aggressive, settled-peoples-
+# despising horde that refuses to cross the salt water.
+#
+dothraki_government = {
+	government_rules = {
+		obedience = yes
+		create_cadet_branches = yes
+		rulers_should_have_dynasty = yes
+		dynasty_named_realms = no
+		landless_playable = yes
+		legitimacy = yes
+		use_as_base_on_rank_up = yes
+		use_as_base_on_landed = yes
+		conditional_maa_refill = yes
+		uses_county_fertility = yes
+		uses_culture_and_house_head_named_realms = yes
+		sticky_government = yes
+		subject_men_at_arms = yes
+		no_capital_movement_cooldown = yes
+		affected_by_development = no
+		buildings = no
+		allow_accolades = yes
+		regiments_prestige_as_gold = yes
+		block_alliance_child_marriage = yes
+	}
+
+	royal_court = any
+
+	domicile_type = yurt
+
+	primary_holding = nomad_holding
+	valid_holdings = { tribal_holding }
+	required_county_holdings = { nomad_holding }
+
+	# TODO: replace with a dothraki_chieftain_character template once
+	# we author Dothraki-flavored name lists / starting traits.
+	generated_character_template = nomadic_chieftain_character
+
+	max_dread = 200
+
+	# TODO: replace with a dothraki_vassal contract group once we author
+	# bloodrider/ko obligation levels distinct from vanilla nomads.
+	vassal_contract_group = nomad_vassal
+
+	# TODO: gate to Dothraki heritage once authored, e.g.:
+	#   primary_heritages = { heritage_dothraki }
+	# For now, omitted so the type is selectable for any nomad on rank-up
+	# or by script during testing.
+
+	can_get_government = {
+		has_mpo_dlc_trigger = yes
+		# TODO: tighten once Dothraki culture exists, e.g.:
+		# culture = { has_cultural_pillar = heritage_dothraki }
+	}
+
+	ai = {
+		use_legends = yes
+		perform_religious_reformation = no
+	}
+
+	character_modifier = {
+		# Lords of the open lands
+		plains_travel_danger = steppe_high_danger_reduction
+		steppe_travel_danger = steppe_high_danger_reduction
+		drylands_travel_danger = drylands_medium_danger_reduction
+		steppe_cancel_negative_supply = yes
+
+		movement_speed = 0.25
+		movement_speed_land_raiding = 0.5
+		supply_duration = 2
+
+		# The khalasar is the warband
+		ai_war_cooldown = -0.75
+		ai_war_chance = 4
+		prowess = 4
+		knight_effectiveness_mult = 0.25
+		knight_limit = 5
+		men_at_arms_maintenance = -0.5
+
+		county_opinion_add = 25
+		ignore_negative_opinion_of_culture = yes
+		title_creation_cost_mult = -0.75
+
+		# Contempt for those who walk
+		feudal_government_vassal_opinion = -25
+		clan_government_vassal_opinion = -15
+		republic_government_vassal_opinion = -50
+
+		# "The poison water" — the Dothraki will not cross it
+		embarkation_cost_mult = 10
+		sea_travel_danger = 100
+		coastal_sea_travel_danger = 100
+	}
+
+	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
+	flags = {
+		government_is_nomadic
+		government_is_dothraki
+		government_has_herd
+		government_can_raid_rule
+		government_can_use_tributary_men_at_arms
+		can_start_war_with_raised_troops
+		ignores_faith_marriage_penalties
+		no_hostile_attrition_in_steppe
+		movement_speed_from_government
+		land_raiding_movement_speed_from_government
+		can_raze_holdings
+		government_uses_domicile_but_not_adventurer
+	}
+
+	mechanic_type = nomad
+	is_mechanic_type_default = no
+
+	color = { 145 30 30 }
+	realm_mask_offset = { 0.0 0.12 }
+	realm_mask_scale = { 0.8 0.8 }
+}

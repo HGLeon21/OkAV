@@ -1,0 +1,4 @@
+l_english:
+ dothraki_government:0 "Khalasar"
+ dothraki_government_desc:0 "A roving horde of horse-warriors bound to a khal. The khalasar lives in the saddle, raids the cities of those who walk, and disdains the salt and the poison water that bounds the world."
+ GOVERNMENT_FLAG_DESC_government_is_dothraki:0 "Is a Dothraki khalasar."
