@@ -1,0 +1,12 @@
+well_endowed = {
+	index = 1000
+
+	prowess = 69
+
+	random_creation = 0
+	shown_in_ruler_designer = no
+
+	icon = "well_endowed.dds"
+
+	flag = physical_trait
+}

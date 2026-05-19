@@ -1,0 +1,4 @@
+l_english:
+ trait_well_endowed:0 "Well Endowed"
+ trait_well_endowed_desc:0 "This character is exceptionally well endowed, granting them legendary prowess on (and off) the battlefield."
+ trait_well_endowed_character_desc:0 "$CHARACTER$ is well endowed."
