@@ -1,12 +1,31 @@
 well_endowed = {
 	index = 1000
 
+	ruler_designer_cost = 50
+
 	prowess = 69
-
-	random_creation = 0
-	shown_in_ruler_designer = no
-
-	icon = "well_endowed.dds"
+	attraction_opinion = 10
 
 	flag = physical_trait
+
+	ai_honor = 5
+	ai_zeal = -5
+
+	same_opinion = 5
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_well_endowed_desc
+			}
+			desc = trait_well_endowed_character_desc
+		}
+	}
+
+	compatibility = {
+
+	}
 }
