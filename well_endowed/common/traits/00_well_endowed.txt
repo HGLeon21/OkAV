@@ -1,17 +1,17 @@
 well_endowed = {
-	index = 1000
-
-	ruler_designer_cost = 50
+	physical = yes
 
 	prowess = 69
 	attraction_opinion = 10
 
-	flag = physical_trait
-
-	ai_honor = 5
-	ai_zeal = -5
+	ruler_designer_cost = 100
 
 	same_opinion = 5
+
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 1
+	}
 
 	desc = {
 		first_valid = {
@@ -25,7 +25,5 @@ well_endowed = {
 		}
 	}
 
-	compatibility = {
-
-	}
+	ai_energy = 20
 }
