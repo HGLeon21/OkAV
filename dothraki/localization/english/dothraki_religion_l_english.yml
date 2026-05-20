@@ -1,0 +1,89 @@
+l_english:
+ # Religion + default faith
+ dothraki_religion:0 "Faith of the Great Stallion"
+ dothraki_religion_desc:0 "The Dothraki worship the Great Stallion, a horse-god whose herd is the world and whose stars are the souls of khals long dead. The widowed dosh khaleen at Vaes Dothrak read omens in the night sky and speak the will of the Stallion. Those who die with arakh in hand ride the night herd forever; those who do not are doomed to wander the cold dark."
+ faith_of_the_great_stallion:0 "Faith of the Great Stallion"
+ faith_of_the_great_stallion_desc:0 "The unreformed faith of all khalasars."
+
+ # High god — the Great Stallion
+ dothraki_high_god_name:0 "the Great Stallion"
+ dothraki_high_god_name_2:0 "the Stallion Whose Herd Is the World"
+ dothraki_high_god_name_3:0 "the Horse God"
+ dothraki_high_god_name_possessive:0 "the Great Stallion's"
+ dothraki_high_god_name_alternate:0 "the Horse God"
+ dothraki_high_god_name_alternate_possessive:0 "the Horse God's"
+
+ # Pantheon
+ dothraki_pantheon_term:0 "the Stallion and his herd"
+ dothraki_pantheon_term_2:0 "the gods of grass and sky"
+ dothraki_pantheon_term_3:0 "the Great Stallion"
+
+ # Lesser gods
+ dothraki_creator_god_name:0 "the Womb of the World"
+ dothraki_creator_god_name_possessive:0 "the Womb of the World's"
+ dothraki_health_god_name:0 "the Silver Mare"
+ dothraki_health_god_name_possessive:0 "the Silver Mare's"
+ dothraki_fertility_god_name:0 "the Moon-Wife"
+ dothraki_fertility_god_name_possessive:0 "the Moon-Wife's"
+ dothraki_wealth_god_name:0 "the Horse of Many Manes"
+ dothraki_wealth_god_name_possessive:0 "the Horse of Many Manes'"
+ dothraki_household_god_name:0 "the Hearth-Mare"
+ dothraki_household_god_name_possessive:0 "the Hearth-Mare's"
+ dothraki_fate_god_name:0 "the Stallion Who Mounts the World"
+ dothraki_fate_god_name_possessive:0 "the Stallion Who Mounts the World's"
+ dothraki_knowledge_god_name:0 "the Dosh Khaleen"
+ dothraki_knowledge_god_name_possessive:0 "the Dosh Khaleen's"
+ dothraki_war_god_name:0 "the Great Stallion"
+ dothraki_war_god_name_possessive:0 "the Great Stallion's"
+ dothraki_trickster_god_name:0 "the Shadow Horse"
+ dothraki_trickster_god_name_possessive:0 "the Shadow Horse's"
+ dothraki_night_god_name:0 "the Night Herd"
+ dothraki_night_god_name_possessive:0 "the Night Herd's"
+ dothraki_water_god_name:0 "the Poison Water"
+ dothraki_water_god_name_possessive:0 "the Poison Water's"
+
+ # Evil
+ dothraki_devil_name:0 "the Cold Dark"
+ dothraki_devil_name_possessive:0 "the Cold Dark's"
+ dothraki_evil_god_cold_dark:0 "the Cold Dark"
+ dothraki_evil_god_lord_of_the_walking:0 "the Lord of Those Who Walk"
+
+ # Witch god — for Dothraki, the maegi-figure (Mirri Maz Duur shadow)
+ dothraki_witch_god_name:0 "the Maegi of the Lamb"
+ dothraki_witch_god_name_possessive:0 "the Maegi of the Lamb's"
+
+ # Sites of worship
+ dothraki_house_of_worship:0 "sacred pyre"
+ dothraki_house_of_worship_2:0 "stallion-stone"
+ dothraki_house_of_worship_3:0 "ring of horse-skulls"
+ dothraki_house_of_worship_plural:0 "sacred pyres"
+
+ # Symbols & texts
+ dothraki_religious_symbol:0 "the horse-skull"
+ dothraki_religious_symbol_2:0 "the bronze medallion belt"
+ dothraki_religious_symbol_3:0 "the braided mane"
+ dothraki_religious_text:0 "the songs of the dosh khaleen"
+ dothraki_religious_text_2:0 "the prophecies of the night herd"
+ dothraki_religious_text_3:0 "the omens of the stars"
+
+ # Clergy
+ dothraki_religious_head_title:0 "Khaleesi of the Dosh Khaleen"
+ dothraki_religious_head_title_name:0 "Crone of Crones"
+ dothraki_devotee:0 "follower of the Stallion"
+ dothraki_devotee_plural:0 "followers of the Stallion"
+ dothraki_priest:0 "khaleen"
+ dothraki_priest_plural:0 "dosh khaleen"
+ dothraki_priest_alternate_plural:0 "the crones"
+
+ # Afterlife
+ dothraki_night_lands:0 "the Night Lands"
+ dothraki_night_lands_2:0 "the Lands of the Night Herd"
+ dothraki_night_lands_3:0 "the country of the dead khals"
+ dothraki_cold_dark:0 "the Cold Dark"
+ dothraki_cold_dark_2:0 "the wandering lands"
+ dothraki_cold_dark_3:0 "the lightless plain"
+
+ # Holy orders
+ holy_order_bloodriders_of_the_great_stallion:0 "Bloodriders of the Great Stallion"
+ holy_order_sons_of_the_stallion:0 "Sons of the Stallion"
+ holy_order_riders_of_the_night_herd:0 "Riders of the Night Herd"
